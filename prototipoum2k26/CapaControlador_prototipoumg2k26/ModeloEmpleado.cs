@@ -57,7 +57,8 @@ namespace CapaControlador_prototipoumg2k26
                 var modeloDatosEmpleados = new Empleados();
                 modeloDatosEmpleados.IdPK = _idPK;
                 modeloDatosEmpleados.IdNumero = _idNumero;
-                modeloDatosEmpleados.Nombre = _nombre;                
+                modeloDatosEmpleados.Nombre = _nombre;   
+                modeloDatosEmpleados.Correo = _correo;
                 modeloDatosEmpleados.Cumpleaños = _cumpleaños;
                 switch (Estado)
                 {
